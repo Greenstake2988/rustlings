@@ -17,6 +17,7 @@ use std::fmt;
 #[derive(PartialEq, Debug)]
 enum CreationError {
     Negative,
+
     Zero,
 }
 
